@@ -95,7 +95,7 @@ test-live:
 	# make incrementbuild-live
 	# cp .env.live .env
 	flutter clean
-	flutter build appbundle --release --build-name=$(VERSION) --build-number=$(BUILD_NUMBER_LIVE) --flavor production --target lib/main_production.dart  --obfuscate --split-debug-info=./mobile_android_live
+	flutter build apk --release --build-name=$(VERSION) --build-number=$(BUILD_NUMBER_LIVE) --flavor production --target lib/main_production.dart  --obfuscate --split-debug-info=./mobile_android_live
 
 test-live-aab:
 	# make incrementbuild-live
