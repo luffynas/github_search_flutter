@@ -1,0 +1,7 @@
+{
+    "@@locale": "id",
+    "homeAppBarTitle": "Github Search",
+    "@homeAppBarTitle": {
+        "description": "Teks ditampilkan di AppBar halaman utama"
+    }
+}
